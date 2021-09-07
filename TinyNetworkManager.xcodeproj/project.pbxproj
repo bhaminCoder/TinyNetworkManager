@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D00F13C26E7B290000456F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F13B26E7B290000456F6 /* AppDelegate.swift */; };
+		3D00F13E26E7B290000456F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F13D26E7B290000456F6 /* SceneDelegate.swift */; };
+		3D00F14026E7B290000456F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F13F26E7B290000456F6 /* ViewController.swift */; };
+		3D00F14326E7B290000456F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D00F14126E7B290000456F6 /* Main.storyboard */; };
+		3D00F14526E7B291000456F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D00F14426E7B291000456F6 /* Assets.xcassets */; };
+		3D00F14826E7B291000456F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D00F14626E7B291000456F6 /* LaunchScreen.storyboard */; };
+		3D00F15326E7B291000456F6 /* TinyNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F15226E7B291000456F6 /* TinyNetworkManagerTests.swift */; };
+		3D00F15E26E7B291000456F6 /* TinyNetworkManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F15D26E7B291000456F6 /* TinyNetworkManagerUITests.swift */; };
+		3D00F17226E7B2CF000456F6 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F16F26E7B2CF000456F6 /* APIRequestManager.swift */; };
+		3D00F17326E7B2CF000456F6 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F17026E7B2CF000456F6 /* ImageDownloader.swift */; };
+		3D00F17426E7B2CF000456F6 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F17126E7B2CF000456F6 /* APIRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D00F14F26E7B291000456F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D00F13026E7B290000456F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D00F13726E7B290000456F6;
+			remoteInfo = TinyNetworkManager;
+		};
+		3D00F15A26E7B291000456F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D00F13026E7B290000456F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D00F13726E7B290000456F6;
+			remoteInfo = TinyNetworkManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D00F13826E7B290000456F6 /* TinyNetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyNetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D00F13B26E7B290000456F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D00F13D26E7B290000456F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D00F13F26E7B290000456F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D00F14226E7B290000456F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D00F14426E7B291000456F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D00F14726E7B291000456F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D00F14926E7B291000456F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D00F14E26E7B291000456F6 /* TinyNetworkManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyNetworkManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D00F15226E7B291000456F6 /* TinyNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyNetworkManagerTests.swift; sourceTree = "<group>"; };
+		3D00F15426E7B291000456F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D00F15926E7B291000456F6 /* TinyNetworkManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyNetworkManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D00F15D26E7B291000456F6 /* TinyNetworkManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyNetworkManagerUITests.swift; sourceTree = "<group>"; };
+		3D00F15F26E7B291000456F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D00F16F26E7B2CF000456F6 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
+		3D00F17026E7B2CF000456F6 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		3D00F17126E7B2CF000456F6 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D00F13526E7B290000456F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D00F14B26E7B291000456F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D00F15626E7B291000456F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D00F12F26E7B290000456F6 = {
+			isa = PBXGroup;
+			children = (
+				3D00F13A26E7B290000456F6 /* TinyNetworkManager */,
+				3D00F15126E7B291000456F6 /* TinyNetworkManagerTests */,
+				3D00F15C26E7B291000456F6 /* TinyNetworkManagerUITests */,
+				3D00F13926E7B290000456F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D00F13926E7B290000456F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D00F13826E7B290000456F6 /* TinyNetworkManager.app */,
+				3D00F14E26E7B291000456F6 /* TinyNetworkManagerTests.xctest */,
+				3D00F15926E7B291000456F6 /* TinyNetworkManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D00F13A26E7B290000456F6 /* TinyNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				3D00F16E26E7B2CF000456F6 /* Network Manager */,
+				3D00F13B26E7B290000456F6 /* AppDelegate.swift */,
+				3D00F13D26E7B290000456F6 /* SceneDelegate.swift */,
+				3D00F13F26E7B290000456F6 /* ViewController.swift */,
+				3D00F14126E7B290000456F6 /* Main.storyboard */,
+				3D00F14426E7B291000456F6 /* Assets.xcassets */,
+				3D00F14626E7B291000456F6 /* LaunchScreen.storyboard */,
+				3D00F14926E7B291000456F6 /* Info.plist */,
+			);
+			path = TinyNetworkManager;
+			sourceTree = "<group>";
+		};
+		3D00F15126E7B291000456F6 /* TinyNetworkManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D00F15226E7B291000456F6 /* TinyNetworkManagerTests.swift */,
+				3D00F15426E7B291000456F6 /* Info.plist */,
+			);
+			path = TinyNetworkManagerTests;
+			sourceTree = "<group>";
+		};
+		3D00F15C26E7B291000456F6 /* TinyNetworkManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D00F15D26E7B291000456F6 /* TinyNetworkManagerUITests.swift */,
+				3D00F15F26E7B291000456F6 /* Info.plist */,
+			);
+			path = TinyNetworkManagerUITests;
+			sourceTree = "<group>";
+		};
+		3D00F16E26E7B2CF000456F6 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3D00F17126E7B2CF000456F6 /* APIRequest.swift */,
+				3D00F16F26E7B2CF000456F6 /* APIRequestManager.swift */,
+				3D00F17026E7B2CF000456F6 /* ImageDownloader.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D00F13726E7B290000456F6 /* TinyNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D00F16226E7B291000456F6 /* Build configuration list for PBXNativeTarget "TinyNetworkManager" */;
+			buildPhases = (
+				3D00F13426E7B290000456F6 /* Sources */,
+				3D00F13526E7B290000456F6 /* Frameworks */,
+				3D00F13626E7B290000456F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyNetworkManager;
+			productName = TinyNetworkManager;
+			productReference = 3D00F13826E7B290000456F6 /* TinyNetworkManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D00F14D26E7B291000456F6 /* TinyNetworkManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D00F16526E7B291000456F6 /* Build configuration list for PBXNativeTarget "TinyNetworkManagerTests" */;
+			buildPhases = (
+				3D00F14A26E7B291000456F6 /* Sources */,
+				3D00F14B26E7B291000456F6 /* Frameworks */,
+				3D00F14C26E7B291000456F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D00F15026E7B291000456F6 /* PBXTargetDependency */,
+			);
+			name = TinyNetworkManagerTests;
+			productName = TinyNetworkManagerTests;
+			productReference = 3D00F14E26E7B291000456F6 /* TinyNetworkManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D00F15826E7B291000456F6 /* TinyNetworkManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D00F16826E7B291000456F6 /* Build configuration list for PBXNativeTarget "TinyNetworkManagerUITests" */;
+			buildPhases = (
+				3D00F15526E7B291000456F6 /* Sources */,
+				3D00F15626E7B291000456F6 /* Frameworks */,
+				3D00F15726E7B291000456F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D00F15B26E7B291000456F6 /* PBXTargetDependency */,
+			);
+			name = TinyNetworkManagerUITests;
+			productName = TinyNetworkManagerUITests;
+			productReference = 3D00F15926E7B291000456F6 /* TinyNetworkManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D00F13026E7B290000456F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					3D00F13726E7B290000456F6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					3D00F14D26E7B291000456F6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3D00F13726E7B290000456F6;
+					};
+					3D00F15826E7B291000456F6 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3D00F13726E7B290000456F6;
+					};
+				};
+			};
+			buildConfigurationList = 3D00F13326E7B290000456F6 /* Build configuration list for PBXProject "TinyNetworkManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D00F12F26E7B290000456F6;
+			productRefGroup = 3D00F13926E7B290000456F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D00F13726E7B290000456F6 /* TinyNetworkManager */,
+				3D00F14D26E7B291000456F6 /* TinyNetworkManagerTests */,
+				3D00F15826E7B291000456F6 /* TinyNetworkManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D00F13626E7B290000456F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D00F14826E7B291000456F6 /* LaunchScreen.storyboard in Resources */,
+				3D00F14526E7B291000456F6 /* Assets.xcassets in Resources */,
+				3D00F14326E7B290000456F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D00F14C26E7B291000456F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D00F15726E7B291000456F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D00F13426E7B290000456F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D00F17226E7B2CF000456F6 /* APIRequestManager.swift in Sources */,
+				3D00F17326E7B2CF000456F6 /* ImageDownloader.swift in Sources */,
+				3D00F14026E7B290000456F6 /* ViewController.swift in Sources */,
+				3D00F13C26E7B290000456F6 /* AppDelegate.swift in Sources */,
+				3D00F17426E7B2CF000456F6 /* APIRequest.swift in Sources */,
+				3D00F13E26E7B290000456F6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D00F14A26E7B291000456F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D00F15326E7B291000456F6 /* TinyNetworkManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D00F15526E7B291000456F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D00F15E26E7B291000456F6 /* TinyNetworkManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D00F15026E7B291000456F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D00F13726E7B290000456F6 /* TinyNetworkManager */;
+			targetProxy = 3D00F14F26E7B291000456F6 /* PBXContainerItemProxy */;
+		};
+		3D00F15B26E7B291000456F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D00F13726E7B290000456F6 /* TinyNetworkManager */;
+			targetProxy = 3D00F15A26E7B291000456F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D00F14126E7B290000456F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D00F14226E7B290000456F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D00F14626E7B291000456F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D00F14726E7B291000456F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D00F16026E7B291000456F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D00F16126E7B291000456F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D00F16326E7B291000456F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z7T2KQL8X;
+				INFOPLIST_FILE = TinyNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejib.Vinayak.TinyNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D00F16426E7B291000456F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z7T2KQL8X;
+				INFOPLIST_FILE = TinyNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejib.Vinayak.TinyNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D00F16626E7B291000456F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z7T2KQL8X;
+				INFOPLIST_FILE = TinyNetworkManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejib.Vinayak.TinyNetworkManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyNetworkManager.app/TinyNetworkManager";
+			};
+			name = Debug;
+		};
+		3D00F16726E7B291000456F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z7T2KQL8X;
+				INFOPLIST_FILE = TinyNetworkManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejib.Vinayak.TinyNetworkManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyNetworkManager.app/TinyNetworkManager";
+			};
+			name = Release;
+		};
+		3D00F16926E7B291000456F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z7T2KQL8X;
+				INFOPLIST_FILE = TinyNetworkManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejib.Vinayak.TinyNetworkManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyNetworkManager;
+			};
+			name = Debug;
+		};
+		3D00F16A26E7B291000456F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z7T2KQL8X;
+				INFOPLIST_FILE = TinyNetworkManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejib.Vinayak.TinyNetworkManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyNetworkManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D00F13326E7B290000456F6 /* Build configuration list for PBXProject "TinyNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D00F16026E7B291000456F6 /* Debug */,
+				3D00F16126E7B291000456F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D00F16226E7B291000456F6 /* Build configuration list for PBXNativeTarget "TinyNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D00F16326E7B291000456F6 /* Debug */,
+				3D00F16426E7B291000456F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D00F16526E7B291000456F6 /* Build configuration list for PBXNativeTarget "TinyNetworkManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D00F16626E7B291000456F6 /* Debug */,
+				3D00F16726E7B291000456F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D00F16826E7B291000456F6 /* Build configuration list for PBXNativeTarget "TinyNetworkManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D00F16926E7B291000456F6 /* Debug */,
+				3D00F16A26E7B291000456F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D00F13026E7B290000456F6 /* Project object */;
+}
