@@ -15,9 +15,6 @@
 		3D00F14826E7B291000456F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D00F14626E7B291000456F6 /* LaunchScreen.storyboard */; };
 		3D00F15326E7B291000456F6 /* TinyNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F15226E7B291000456F6 /* TinyNetworkManagerTests.swift */; };
 		3D00F15E26E7B291000456F6 /* TinyNetworkManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F15D26E7B291000456F6 /* TinyNetworkManagerUITests.swift */; };
-		3D00F17226E7B2CF000456F6 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F16F26E7B2CF000456F6 /* APIRequestManager.swift */; };
-		3D00F17326E7B2CF000456F6 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F17026E7B2CF000456F6 /* ImageDownloader.swift */; };
-		3D00F17426E7B2CF000456F6 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F17126E7B2CF000456F6 /* APIRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +49,6 @@
 		3D00F15926E7B291000456F6 /* TinyNetworkManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyNetworkManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D00F15D26E7B291000456F6 /* TinyNetworkManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyNetworkManagerUITests.swift; sourceTree = "<group>"; };
 		3D00F15F26E7B291000456F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D00F16F26E7B2CF000456F6 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
-		3D00F17026E7B2CF000456F6 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
-		3D00F17126E7B2CF000456F6 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +99,6 @@
 		3D00F13A26E7B290000456F6 /* TinyNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				3D00F16E26E7B2CF000456F6 /* Network Manager */,
 				3D00F13B26E7B290000456F6 /* AppDelegate.swift */,
 				3D00F13D26E7B290000456F6 /* SceneDelegate.swift */,
 				3D00F13F26E7B290000456F6 /* ViewController.swift */,
@@ -133,16 +126,6 @@
 				3D00F15F26E7B291000456F6 /* Info.plist */,
 			);
 			path = TinyNetworkManagerUITests;
-			sourceTree = "<group>";
-		};
-		3D00F16E26E7B2CF000456F6 /* Network Manager */ = {
-			isa = PBXGroup;
-			children = (
-				3D00F17126E7B2CF000456F6 /* APIRequest.swift */,
-				3D00F16F26E7B2CF000456F6 /* APIRequestManager.swift */,
-				3D00F17026E7B2CF000456F6 /* ImageDownloader.swift */,
-			);
-			path = "Network Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,11 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D00F17226E7B2CF000456F6 /* APIRequestManager.swift in Sources */,
-				3D00F17326E7B2CF000456F6 /* ImageDownloader.swift in Sources */,
 				3D00F14026E7B290000456F6 /* ViewController.swift in Sources */,
 				3D00F13C26E7B290000456F6 /* AppDelegate.swift in Sources */,
-				3D00F17426E7B2CF000456F6 /* APIRequest.swift in Sources */,
 				3D00F13E26E7B290000456F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
