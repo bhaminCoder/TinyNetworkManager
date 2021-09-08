@@ -18,6 +18,9 @@
 		3D00F18526E7E84F000456F6 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F18226E7E84F000456F6 /* APIRequestManager.swift */; };
 		3D00F18626E7E84F000456F6 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F18326E7E84F000456F6 /* ImageDownloader.swift */; };
 		3D00F18726E7E84F000456F6 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F18426E7E84F000456F6 /* APIRequest.swift */; };
+		3DB48F3D26E85A7900E6FE54 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB48F3C26E85A7900E6FE54 /* ViewModel.swift */; };
+		3DB48F4826E85CFC00E6FE54 /* CountriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB48F4726E85CFC00E6FE54 /* CountriesRequest.swift */; };
+		3DB48F5026E85D7900E6FE54 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB48F4F26E85D7900E6FE54 /* Countries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		3D00F18226E7E84F000456F6 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
 		3D00F18326E7E84F000456F6 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		3D00F18426E7E84F000456F6 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		3DB48F3C26E85A7900E6FE54 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3DB48F4726E85CFC00E6FE54 /* CountriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesRequest.swift; sourceTree = "<group>"; };
+		3DB48F4F26E85D7900E6FE54 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +111,11 @@
 		3D00F13A26E7B290000456F6 /* TinyNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				3DB48F3B26E85A6900E6FE54 /* View */,
+				3DB48F3726E85A4300E6FE54 /* Sample */,
 				3D00F18126E7E84F000456F6 /* Network Manager */,
 				3D00F13B26E7B290000456F6 /* AppDelegate.swift */,
 				3D00F13D26E7B290000456F6 /* SceneDelegate.swift */,
-				3D00F13F26E7B290000456F6 /* ViewController.swift */,
 				3D00F14126E7B290000456F6 /* Main.storyboard */,
 				3D00F14426E7B291000456F6 /* Assets.xcassets */,
 				3D00F14626E7B291000456F6 /* LaunchScreen.storyboard */,
@@ -143,6 +150,40 @@
 				3D00F18326E7E84F000456F6 /* ImageDownloader.swift */,
 			);
 			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		3DB48F3726E85A4300E6FE54 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				3DB48F3926E85A5400E6FE54 /* Request */,
+				3DB48F3826E85A4E00E6FE54 /* Model */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		3DB48F3826E85A4E00E6FE54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DB48F4F26E85D7900E6FE54 /* Countries.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DB48F3926E85A5400E6FE54 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3DB48F4726E85CFC00E6FE54 /* CountriesRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3DB48F3B26E85A6900E6FE54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3DB48F3C26E85A7900E6FE54 /* ViewModel.swift */,
+				3D00F13F26E7B290000456F6 /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +320,11 @@
 				3D00F18626E7E84F000456F6 /* ImageDownloader.swift in Sources */,
 				3D00F14026E7B290000456F6 /* ViewController.swift in Sources */,
 				3D00F13C26E7B290000456F6 /* AppDelegate.swift in Sources */,
+				3DB48F5026E85D7900E6FE54 /* Countries.swift in Sources */,
 				3D00F18726E7E84F000456F6 /* APIRequest.swift in Sources */,
 				3D00F13E26E7B290000456F6 /* SceneDelegate.swift in Sources */,
+				3DB48F4826E85CFC00E6FE54 /* CountriesRequest.swift in Sources */,
+				3DB48F3D26E85A7900E6FE54 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
