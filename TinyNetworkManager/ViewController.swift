@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TinyNetworkManager
 //
-//  Created by Vinayak.gh on 07/09/21.
+//  Created by Vinayak.Hejib on 07/09/21.
 //
 
 import UIKit
