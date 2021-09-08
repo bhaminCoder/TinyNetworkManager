@@ -54,6 +54,6 @@ extension URLRequest {
 
         self.init(url: relativeURL)
         self.timeoutInterval = 30.0 //Assumption
-        self.httpMethod = request.method()
+        self.httpMethod = request.method().rawValue
     }
 }

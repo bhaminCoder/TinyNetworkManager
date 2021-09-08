@@ -8,12 +8,17 @@
 
 import Foundation
 
+enum MethodType: String {
+    case GET
+    case POST
+}
+
 protocol APIRequest: class {
     associatedtype ModelType: Codable
 
     func baseUrl() -> String
     func path() -> String
-    func method() -> String
+    func method() -> MethodType
 
     func urlSession() -> URLSession
 
@@ -26,5 +31,13 @@ extension APIRequest {
     public func urlSession() -> URLSession {
         let sessionConfiguration = URLSessionConfiguration.default
         return URLSession(configuration: sessionConfiguration, delegate: nil, delegateQueue: .main)
+    }
+    
+    public func data() -> Data? {
+        return nil
+    }
+    
+    public func error() -> Error? {
+        return nil
     }
 }
